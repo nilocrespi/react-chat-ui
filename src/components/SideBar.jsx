@@ -3,7 +3,7 @@ import ChatList from "../components/ChatList"
 
 const SideBar = () => {
   return (
-    <aside>
+    <aside className = "sidebar">
       <SearchBar />
       <ChatList />
     </aside>
