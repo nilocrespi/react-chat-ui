@@ -1,6 +1,12 @@
 const ChatItem = () => {
   return (
-    <h2>ChatItem funcionando</h2>
+    <li className="contact">
+      <img src="../../public/avatar.jpeg" alt="imagen de perfil"/>
+      <div>
+        <h4>Vincent Porter</h4>
+        <p className="status offline">left 7 mins ago</p>
+      </div>
+    </li>
   )
 }
 
