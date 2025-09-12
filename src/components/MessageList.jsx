@@ -2,7 +2,7 @@ import Message from "./Message"
 
 const MessageList = () => {
   return (
-    <section class="chat-messages">
+    <section className="chat-messages">
       <Message/>
     </section>
   )

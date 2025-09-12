@@ -1,6 +1,9 @@
 const ChatFooter = () => {
   return (
-    <h2>ChatFooter funcionando</h2>
+    <section className="chat-footer">
+      <input type="text" placeholder="Enter text here..."/>
+      <button>✈️</button>
+    </section>
   )
 }
 
