@@ -1,6 +1,8 @@
 const SearchBar = () => {
   return (
-    <h2>SearchBar funcionando</h2>
+    <div className = "search-container">
+      <input type="search" placeholder="Search..." className = "search"></input>
+    </div>
   )
 }
 
