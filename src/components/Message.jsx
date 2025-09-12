@@ -1,6 +1,9 @@
 const Message = () => {
   return (
-    <h2>Message funcionando</h2>
+    <div class="message sent">
+      <p>Hi Aiden, how are you? How is the project coming along?</p>
+      <p class="timestamp">10:10 AM, Today</p>
+    </div>
   )
 }
 
