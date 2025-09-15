@@ -3,10 +3,10 @@ import ChatWindow from "../components/ChatWindow"
 
 const Chat = () => {
   return (
-    <main>
+    <section>
       <SideBar />
       <ChatWindow />
-    </main>
+    </section>
   )
 }
 
