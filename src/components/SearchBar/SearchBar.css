@@ -1,0 +1,22 @@
+.search-container {
+    background-color: rgb(254, 254, 254);
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    height: 40%;
+    width: 90%;
+    padding-left: 1em;
+    border-radius: 10px;
+    border: solid 1px rgb(219, 219, 219);
+    color: rgb(117, 117, 117);
+}
+
+.search:focus {
+    outline: none;
+    border: solid 1px rgb(219, 219, 219);
+}

@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.chat {
+    border-inline: solid 1px rgb(219, 219, 219);
+}

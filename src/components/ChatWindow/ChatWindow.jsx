@@ -1,6 +1,7 @@
 import ChatHeader from "../ChatHeader/ChatHeader"
 import MessageList from "../MessageList/MessageList"
 import ChatFooter from "../ChatFooter/ChatFooter"
+import "./ChatWindow.css"
 
 const ChatWindow = () => {
   return (

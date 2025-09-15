@@ -1,0 +1,22 @@
+.message {
+    width: fit-content;
+    padding: 0.6em;
+    margin-inline: 1em;
+    margin-block: 0.3em;
+    border-radius: 0.5em;
+}
+
+.timestamp {
+    color: rgb(127, 127, 127);
+    font-size: small;
+    padding-top: 0.2em;
+}
+
+.sent {
+    align-self: flex-end;
+    background-color: rgb(228, 242, 247);
+}
+
+.received {
+    background-color: rgb(237, 237, 237);
+}

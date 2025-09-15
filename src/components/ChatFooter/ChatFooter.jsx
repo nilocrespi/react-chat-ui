@@ -1,3 +1,5 @@
+import "./ChatFooter.css"
+
 const ChatFooter = () => {
   return (
     <section className="chat-footer">

@@ -1,3 +1,5 @@
+import "./ChatHeader.css"
+
 const ChatHeader = () => {
   return (
     <section className="chat-header">

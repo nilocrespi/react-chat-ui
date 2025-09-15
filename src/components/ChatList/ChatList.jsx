@@ -1,4 +1,5 @@
 import ChatItem from "../ChatItem/ChatItem"
+import "./ChatList.css"
 
 const ChatList = () => {
   return (

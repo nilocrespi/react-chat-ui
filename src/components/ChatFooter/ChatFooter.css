@@ -1,0 +1,39 @@
+.chat-footer {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    align-items: center;
+    border-top: solid 1px rgb(219, 219, 219);
+}
+
+.chat-footer input {
+    background-color: rgb(254, 254, 254);
+    border: solid 1px rgb(219, 219, 219);
+    width: 95%;
+    height: 55%;
+    border-radius: 10px;
+    margin-block: 1em;
+    margin-left: 1em;
+    color: rgb(117, 117, 117);
+    padding-left: 1em;
+}
+
+.chat-footer input:focus {
+    outline: none;
+    border: solid 1px rgb(219, 219, 219);
+}
+
+.chat-footer button {
+    width: 5%;
+    height: fit-content;
+    font-size: 2em;
+    background-color: rgb(254, 254, 254);
+    border: none;
+    transition: transform 0.1s;
+    margin: 0.5em;
+}
+
+.chat-footer button:hover {
+    transform: scale(1.1);
+}

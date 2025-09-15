@@ -1,0 +1,42 @@
+.chat-header {
+    height: 12%;
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px rgb(219, 219, 219);
+}
+
+.chat-active {
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+
+.chat-active img {
+    width: 50px;
+    margin-inline: 1em;
+    border-radius: 100%;
+}
+
+.chat-active h3 {
+    margin-right: 0.5em;
+}
+
+.chat-actions {
+    width: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chat-actions button {
+    height: fit-content;
+    font-size: 1.5em;
+    width: 2em;
+    background-color: rgb(254, 254, 254);
+    border: none;
+    transition: transform 0.1s;
+}
+
+.chat-actions button:hover {
+    transform: scale(1.1);
+}

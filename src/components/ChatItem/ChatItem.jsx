@@ -1,3 +1,5 @@
+import "./ChatItem.css"
+
 const ChatItem = () => {
   return (
     <li className="contact">

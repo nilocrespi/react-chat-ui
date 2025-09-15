@@ -1,5 +1,6 @@
 import SearchBar from "../SearchBar/SearchBar"
 import ChatList from "../ChatList/ChatList"
+import "./SideBar.css"
 
 const SideBar = () => {
   return (

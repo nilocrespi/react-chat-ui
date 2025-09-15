@@ -1,0 +1,10 @@
+.chat-messages {
+    height: fit-content;
+    max-height: 78%;
+    background-color: rgb(246, 248, 249);
+    display: flex;
+    flex-direction: column;
+    padding-block: 1em;
+    flex-grow: 1;
+    overflow-y: auto;
+}
