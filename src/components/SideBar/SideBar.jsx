@@ -1,5 +1,5 @@
-import SearchBar from "../components/SearchBar"
-import ChatList from "../components/ChatList"
+import SearchBar from "../SearchBar/SearchBar"
+import ChatList from "../ChatList/ChatList"
 
 const SideBar = () => {
   return (
