@@ -1,4 +1,4 @@
-import "./ChatFooter.css"
+import "../styles/components/ChatFooter.css"
 
 const ChatFooter = () => {
   return (

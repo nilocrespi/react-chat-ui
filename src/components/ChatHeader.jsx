@@ -1,4 +1,4 @@
-import "./ChatHeader.css"
+import "../styles/components/ChatHeader.css"
 
 const ChatHeader = () => {
   return (

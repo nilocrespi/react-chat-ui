@@ -1,4 +1,4 @@
-import "./Message.css"
+import "../styles/components/Message.css"
 
 const Message = () => {
   return (
